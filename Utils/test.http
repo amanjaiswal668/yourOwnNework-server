@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/create
+content-type: application/json
+
+{
+    "name": "sample",
+    "password": 123,
+    "email" :"sample@123"
+}
+
+
+###
+
+GET http://localhost:3000/create
